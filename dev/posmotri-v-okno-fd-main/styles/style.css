@@ -11,7 +11,7 @@ html {
 .page {
   block-size: 100%;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -47,7 +47,7 @@ ol {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .content {
@@ -74,7 +74,7 @@ ol {
 
 .search-form__fieldset {
   border: none;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 12px;
 }
 
@@ -121,13 +121,13 @@ h2 {
   width: 225px;
   padding-left: 0;
   letter-spacing: 0%;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
-  color:#fff;
+  color: #fff;
 }
 
 .search-form__label-text {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -154,12 +154,12 @@ h2 {
   color: #fff;
   min-height: 34px;
   align-self: end;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   cursor: pointer;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 2px;
   left: 2px;
@@ -170,14 +170,14 @@ h2 {
 
 .button.search-form__submit-button {
   min-width: 194px;
- }
+}
 
 .title {
   width: 259px;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   color: #fff;
   padding-top: 3px;
@@ -198,11 +198,11 @@ h2 {
 
 .content__card-link {
   text-decoration: none;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .content__video-card-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 30px;
@@ -216,7 +216,7 @@ h2 {
 
 .content__video-card-description {
   font-weight: 400;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   line-height: 16.2px;
 }
 
@@ -225,9 +225,8 @@ h2 {
   grid-template-rows: 108px 108px 108px;
   grid-template-columns: 1fr;
   gap: 25px;
-  
-   margin-top: -5px;
 
+  margin-top: -5px;
 }
 
 .content__list-container {
@@ -239,7 +238,7 @@ h2 {
   width: 194px;
   max-height: 103px;
   object-fit: cover;
-  align-self: end
+  align-self: end;
 }
 
 .content__video-card {
@@ -285,52 +284,45 @@ h2 {
 .button.search-form__submit-button:hover,
 .button.more-button:hover {
   text-decoration: underline;
- text-decoration-thickness: 2px;
+  text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
 
 .search-form__textfield:focus-visible,
 .search-form__label:has(.search-form__checkbox:focus-visible),
-.content__list-item:focus-visible
- {
+.content__list-item:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
-
 .search-form__checkbox-list .search-form__label {
   cursor: pointer;
-
 }
 .content__card-link {
   position: relative;
   z-index: 1;
 }
 
-
 .content__card-link:focus-visible {
   box-shadow: 0 0 0 2px #fff;
-   
+
   outline: none;
-   z-index: 1;
+  z-index: 1;
 }
 
 .content__card-link {
   display: block;
   height: 100%;
 }
-.content__list-item{
-   padding: 2px;
+.content__list-item {
+  padding: 2px;
 }
 .content__list-item:first-child {
   margin-top: 5px;
 }
 
 .content__list-item:first-child:focus-visible {
-  box-shadow: 
-    0 -3px 0 0 #fff,
-    0 0 0 2px #fff,
-    0 2px 0 0 #fff;
+  box-shadow: 0 -3px 0 0 #fff, 0 0 0 2px #fff, 0 2px 0 0 #fff;
   outline: none;
   position: relative;
   z-index: 2;
@@ -346,26 +338,24 @@ h2 {
 }
 
 .content__list-container--empty {
-  background-color: #545050; 
+  background-color: #545050;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 298px; 
+  min-height: 298px;
 }
 
 .content__empty-message {
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   text-align: center;
   padding: 20px;
 }
 
-
 .content__list:has(+ .content__empty-message) {
   display: none;
 }
-
 
 .content__list-container.empty .content__list {
   display: none;
@@ -377,7 +367,7 @@ h2 {
 
 .button.more-button:focus-visible {
   outline: none;
-  border: 2px solid #fff; 
-    background-color: #1b1919; 
-  padding: calc(0.5em - 2px) calc(1em - 2px); 
+  border: 2px solid #fff;
+  background-color: #1b1919;
+  padding: calc(0.5em - 2px) calc(1em - 2px);
 }
